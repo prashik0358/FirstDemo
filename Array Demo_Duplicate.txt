@@ -1,0 +1,29 @@
+public class Duplicate{
+
+public static int findDuplicate(int [] arr, int total){
+	
+		for(int i=0;i<total;i++){
+			
+			 
+				for(int j=0;j<total;j++){
+					
+					if(arr[i]==a[j]){
+						 
+						System.out.println(a[i]);
+					}
+					
+				}
+			}
+		 
+		}
+
+public static void main(String [] args){
+	
+	int [] a={5,4,3,5,9,7,2,8,9};
+	int n=a.lenght;
+
+	System.out.println("The repeatred nos are: "+ findDuplicate(a,n));
+	
+	}
+
+}
